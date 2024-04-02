@@ -5,6 +5,8 @@ import MainLayout from "../MainLayout";
 import Home from "../Pages/Home/Home";
 import ListedBooks from "../Pages/ListedBooks/ListedBooks";
 import Details from "../Pages/Details/Details";
+import SingUp from "../Pages/SingUp";
+import SingIn from "../Pages/SingIn";
 // import PageRead from "../Pages/PagetoRead/PageRead";
 
 const router = createBrowserRouter([
@@ -27,6 +29,14 @@ const router = createBrowserRouter([
           path:'/ListedBooks',
           element:<ListedBooks/>
         },
+        {
+          path:'/SingUp',
+          element:<SingUp/>
+        },
+        {
+          path:'/SingIn',
+          element:<SingIn/>
+        }
         
       ]
     },

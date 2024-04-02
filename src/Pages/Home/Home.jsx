@@ -1,10 +1,16 @@
+import { Helmet } from "react-helmet-async";
 import Banner from "./Banner";
 import Books from "./Books";
 import Footer from "./Footer";
 
 const Home = () => {
+
     return (
         <div className="space-y-28">
+
+            <Helmet>
+                <title>home</title>
+            </Helmet>
 
             <div className="space-y-20 max-w-7xl mx-auto">
 
